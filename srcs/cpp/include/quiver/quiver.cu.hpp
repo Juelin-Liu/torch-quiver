@@ -10,7 +10,9 @@
 
 #include <thrust/binary_search.h>
 #include <thrust/device_vector.h>
-
+#include <thrust/sort.h>
+#include <thrust/sequence.h>
+#include <thrust/unique.h>
 #include <cuda_runtime.h>
 
 #define quiverRegister(ptr, size, flag)                                        \
